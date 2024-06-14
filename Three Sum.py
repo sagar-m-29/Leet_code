@@ -6,6 +6,7 @@ Created on Fri May 31 15:39:31 2024
 @author: Sagar
 """
 
+#Stuck
 
 def threeSum(nums):
     
