@@ -6,7 +6,7 @@ Created on Fri May 31 15:39:31 2024
 @author: Sagar
 """
 
-#Stuck
+#Struggling here
 
 def threeSum(nums):
     
