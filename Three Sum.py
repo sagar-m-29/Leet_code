@@ -6,8 +6,6 @@ Created on Fri May 31 15:39:31 2024
 @author: Sagar
 """
 
-#Struggling here
-
 def threeSum(nums):
     
     empty_array = []
@@ -20,7 +18,7 @@ def threeSum(nums):
     return empty_array
 
 nums = [-1,0,2,1,-1,4]
-threeSum(nums)
+print(threeSum(nums))
 
 #######
 
@@ -50,12 +48,12 @@ def twoSum(nums, target):
             return [dictionary[checker], i]
         else:
             dictionary[nums[i]] = i
-      
         
 nums = [2,4,3]
 target = 6
 
-twoSum(nums,target)
+print("Two sum:")
+print(twoSum(nums,target))
 
 
             
